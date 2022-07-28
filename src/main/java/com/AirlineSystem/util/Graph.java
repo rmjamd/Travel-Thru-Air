@@ -11,7 +11,7 @@ public class Graph {
     HashMap<String, ArrayList<String>> map=new HashMap<>();
     List<String> city;
 
-    public Graph(ArrayList<FlightTrip> trips, List<String> city) {
+    public Graph(List<FlightTrip> trips, List<String> city) {
         this.city = city;
         for (FlightTrip trip : trips) {
             map.putIfAbsent(trip.getSource(), new ArrayList<>());

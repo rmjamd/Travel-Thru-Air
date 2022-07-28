@@ -30,7 +30,7 @@
                         <div id="tab1">
                             <div class="submit-form">
                                 <h4>Travel Thru Air <em></em>:</h4>
-                                <form id="form-submit" action=/airline/add th:action="@{/airline/add}" th:object="${booking}"method="get">
+                                <form id="form-submit" action=/AirlineSystem/search th:action="@{/AirlineSystem/search}" th:object="${booking}"method="get">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <fieldset>
@@ -75,7 +75,7 @@
                                     </div>
                                 </form>
 
-                                <form id="show" action="show" method="get">
+                                <form id="show" action=/AirlineSystem/show method="get">
                                     <div class="row">
                                             <fieldset>
                                                 <button type="submit" id="submit1" class="btn">Show List</button>
