@@ -3,6 +3,8 @@ package com.AirlineSystem.model;
 public class FlightTrip {
     String source;
     String destination;
+    long cost;
+    String time;
 
     public FlightTrip() {
     }
@@ -17,7 +19,7 @@ public class FlightTrip {
                 '}';
     }
 
-    public FlightTrip(String source, String destination,String time, long cost) {
+    public FlightTrip(String source, String destination, String time, long cost) {
         this.source = source;
         this.destination = destination;
         this.cost = cost;
@@ -56,6 +58,5 @@ public class FlightTrip {
         this.time = time;
     }
 
-    long cost;
-    String time;
+
 }

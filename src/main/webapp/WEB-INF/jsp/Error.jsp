@@ -2,10 +2,9 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
     <head>
-        <title>Index page</title>
+        <title>Error</title>
     </head>
     <body>
-       <div> This is index page </div>
-
+       <p1>${error}</p1>
     </body>
 </html>
